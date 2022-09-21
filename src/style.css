@@ -222,5 +222,52 @@ ul {
 .btn_institutional:hover {
     color: var(--collor-copy);
     background: unset;
+    box-shadow: 0 1rem 1rem #0006;
+}
 
+.quote {
+    background-image: url(./images/parallax.jpg);
+    background-attachment: fixed;/*paralax,fixar imagem no fundo*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.quote_container {
+    display: grid;
+    align-items: center;/*alinhar na vertical*/
+    justify-items: end;/*alinhar na horizontal*/
+    min-height: 92vh;
+}
+.quote_copy {
+    background-color: #ffff;
+    padding: 5.625rem 4.375rem;
+}
+
+.quote_copy h6 {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    letter-spacing: 0.1875rem;/*espaçamento entre as letras*/
+    line-height: 1.4375rem;
+    max-width: 53ch;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.quote_copy h2 {
+    font-size: 5rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+    letter-spacing: -0.1875;
+    margin: 1.875rem 0;
+}
+
+.quote_copy h2 span {
+    display: block;
+}
+
+.btn-quote {
+    color: var(--collor-copy);
+    border-color: var(--collor-copy);
+    background: unset;
 }
